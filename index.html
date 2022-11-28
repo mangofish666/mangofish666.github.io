@@ -131,11 +131,11 @@
     <ul class="sub-nav menus_item_child ">
       
       <li>
-        <a href="/musics">
+        <a href="/music">
           
           <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
           
-          <span>Musics</span>
+          <span>music</span>
         </a>
       </li>
       
@@ -251,11 +251,11 @@
               
                 <li>
 
-                  <a href="/musics " style="margin-left:75px">
+                  <a href="/music " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
 			      
-		          <span>Musics</span>
+		          <span>music</span>
                   </a>
                 </li>
               
@@ -607,6 +607,47 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
+                    <a href="/2022/11/28/vuex/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="vue组件之间通信的学习">
+                            
+                            <span class="card-title">vue组件之间通信的学习</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                vuex1.版本选择12vue2---&gt;vuex3vue3---&gt;vuex4
+
+2.安装12npm i  vuex@3npm i  vuex@4
+
+3.编写store1.在 src 目录下新建 store 文件夹，创建 inde
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-28
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                芒果鱼
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
                     <a href="/2022/11/28/hello-world/">
                         <div class="card-image">
                             
@@ -655,6 +696,8 @@
 <style>
     .aplayer .aplayer-lrc p {
         
+        display: none;
+        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
@@ -662,8 +705,19 @@
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
         
+        display: none;
+        
         font-size: 15px;
         color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
     }
 
     
@@ -672,9 +726,9 @@
     
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
+                   server="tencent"
                    type="playlist"
-                   id="503838841"
+                   id="4628814494"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
